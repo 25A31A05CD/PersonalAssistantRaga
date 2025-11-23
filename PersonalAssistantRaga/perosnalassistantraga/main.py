@@ -10,7 +10,7 @@ load_dotenv()
 # TIP: You can set your key here temporarily for testing, 
 # but in production, use a .env file!
 if not os.environ.get("OPENAI_API_KEY"):
-    os.environ["OPENAI_API_KEY"] = "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" # Replace with your actual OpenAI Key
+    os.environ["OPENAI_API_KEY"] = "........" # Replace with your actual OpenAI Key
 
 # 2. Initialize the Model
 # We use a low temperature for more predictable results
